@@ -1,0 +1,129 @@
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+H1 H2 H3 H4 
+*** Adding switches:
+S1 S2 
+*** Adding links:
+(10.00Mbit 2ms delay) (10.00Mbit 2ms delay) (H1, S1) (20.00Mbit 10ms delay) (20.00Mbit 10ms delay) (H2, S1) (10.00Mbit 2ms delay) (10.00Mbit 2ms delay) (H3, S2) (20.00Mbit 10ms delay) (20.00Mbit 10ms delay) (H4, S2) (20.00Mbit 2ms delay 10% loss) (20.00Mbit 2ms delay 10% loss) (S1, S2) 
+*** Configuring hosts
+H1 H2 H3 H4 
+*** Starting controller
+c0 
+*** Starting 2 switches
+S1 S2 ...(10.00Mbit 2ms delay) (20.00Mbit 10ms delay) (20.00Mbit 2ms delay 10% loss) (10.00Mbit 2ms delay) (20.00Mbit 10ms delay) (20.00Mbit 2ms delay 10% loss) 
+Dumping host connections
+H1 H1-eth0:S1-eth1
+H2 H2-eth0:S1-eth2
+H3 H3-eth0:S2-eth1
+H4 H4-eth0:S2-eth2
+Testing bandwidth between h1 and h4
+[1] 22659
+
+[1] 22741
+
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 52138 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 0.5 sec   638 KBytes  10.4 Mbits/sec
+[  3]  0.5- 1.0 sec   191 KBytes  3.13 Mbits/sec
+[  3]  1.0- 1.5 sec   127 KBytes  2.09 Mbits/sec
+[  3]  1.5- 2.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  2.0- 2.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  2.5- 3.0 sec   127 KBytes  2.09 Mbits/sec
+[  3]  3.0- 3.5 sec   191 KBytes  3.13 Mbits/sec
+[  3]  3.5- 4.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  4.0- 4.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  4.5- 5.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  5.0- 5.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  5.5- 6.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  6.0- 6.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  6.5- 7.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  7.0- 7.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  7.5- 8.0 sec   127 KBytes  2.09 Mbits/sec
+[  3]  8.0- 8.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  8.5- 9.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  9.0- 9.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  9.5-10.0 sec   127 KBytes  2.09 Mbits/sec
+[  3] 10.0-10.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 10.5-11.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 11.0-11.5 sec   127 KBytes  2.09 Mbits/sec
+[  3] 11.5-12.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 12.0-12.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 12.5-13.0 sec   191 KBytes  3.13 Mbits/sec
+[  3] 13.0-13.5 sec   127 KBytes  2.09 Mbits/sec
+[  3] 13.5-14.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 14.0-14.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 14.5-15.0 sec   191 KBytes  3.13 Mbits/sec
+[  3] 15.0-15.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 15.5-16.0 sec   127 KBytes  2.09 Mbits/sec
+[  3] 16.0-16.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 16.5-17.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 17.0-17.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 17.5-18.0 sec   127 KBytes  2.09 Mbits/sec
+[  3] 18.0-18.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 18.5-19.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 19.0-19.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 19.5-20.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  0.0-20.1 sec  3.67 MBytes  1.53 Mbits/sec
+
+------------------------------------------------------------
+Client connecting to 10.0.0.4, TCP port 5002
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 39092 connected with 10.0.0.4 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 0.5 sec   230 KBytes  3.78 Mbits/sec
+[  3]  0.5- 1.0 sec  93.3 KBytes  1.53 Mbits/sec
+[  3]  1.0- 1.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  1.5- 2.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  2.0- 2.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  2.5- 3.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  3.0- 3.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  3.5- 4.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  4.0- 4.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  4.5- 5.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  5.0- 5.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  5.5- 6.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  6.0- 6.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  6.5- 7.0 sec   127 KBytes  2.09 Mbits/sec
+[  3]  7.0- 7.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  7.5- 8.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  8.0- 8.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  8.5- 9.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3]  9.0- 9.5 sec  0.00 Bytes  0.00 bits/sec
+[  3]  9.5-10.0 sec  0.00 Bytes  0.00 bits/sec
+[  3] 10.0-10.5 sec  0.00 Bytes  0.00 bits/sec
+[  3] 10.5-11.0 sec  0.00 Bytes  0.00 bits/sec
+[  3] 11.0-11.5 sec  0.00 Bytes  0.00 bits/sec
+[  3] 11.5-12.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 12.0-12.5 sec  0.00 Bytes  0.00 bits/sec
+[  3] 12.5-13.0 sec  0.00 Bytes  0.00 bits/sec
+[  3] 13.0-13.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 13.5-14.0 sec  0.00 Bytes  0.00 bits/sec
+[  3] 14.0-14.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 14.5-15.0 sec  0.00 Bytes  0.00 bits/sec
+[  3] 15.0-15.5 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 15.5-16.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 16.0-16.5 sec  0.00 Bytes  0.00 bits/sec
+[  3] 16.5-17.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 17.0-17.5 sec  0.00 Bytes  0.00 bits/sec
+[  3] 17.5-18.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 18.0-18.5 sec  0.00 Bytes  0.00 bits/sec
+[  3] 18.5-19.0 sec  63.6 KBytes  1.04 Mbits/sec
+[  3] 19.0-19.5 sec  0.00 Bytes  0.00 bits/sec
+[  3] 19.5-20.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  0.0-20.2 sec  1.50 MBytes   620 Kbits/sec
+
+*** Stopping 1 controllers
+c0 
+*** Stopping 5 links
+.....
+*** Stopping 2 switches
+S1 S2 
+*** Stopping 4 hosts
+H1 H2 H3 H4 
+*** Done

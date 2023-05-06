@@ -1,0 +1,28 @@
+﻿  proc3.c
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(77,9): warning C4013: “init”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(103,26): warning C4013: “rtupdate0”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(105,26): warning C4013: “rtupdate1”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(107,26): warning C4013: “rtupdate2”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(109,26): warning C4013: “rtupdate3”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(110,65): warning C4013: “exit”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(114,29): warning C4013: “linkhandler0”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(115,29): warning C4013: “linkhandler1”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(127,17): warning C4013: “free”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(148,10): warning C4013: “srand”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(152,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(161,12): warning C4013: “rtinit0”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(162,12): warning C4013: “rtinit1”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(163,12): warning C4013: “rtinit2”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(164,12): warning C4013: “rtinit3”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(168,38): warning C4013: “malloc”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(173,20): warning C4013: “insertevent”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(192,17): warning C4013: “rand”未定义；假设外部返回 int
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(192,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(275,9): warning C4033: “tolayer2”必须返回值
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(279,9): warning C4033: “tolayer2”必须返回值
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(283,9): warning C4033: “tolayer2”必须返回值
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(287,9): warning C4033: “tolayer2”必须返回值
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(319,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(181): warning C4716: “init”: 必须返回一个值
+D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\proc3.c(237): warning C4716: “insertevent”: 必须返回一个值
+  Project1.vcxproj -> D:\大学\其他\5. 大三上学期\计算机网络\实验\3 网络层实验\3\Project1\Debug\Project1.exe
